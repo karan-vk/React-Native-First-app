@@ -8,9 +8,9 @@ export default function App() {
     <View style={styles.container}>
       <Text>{outputText}</Text>
       <Button
-        title="Start"
+        title="Change text"
         onPress={() => {
-          setOutputText("happy");
+          setOutputText("Happy !!!");
         }}
       />
       <StatusBar style="auto" />
